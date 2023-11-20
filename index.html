@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kone Nonwa">
+    <meta name="description" content="Checkpoint HTML">
+    <title>CHECKPOINT HTML</title>
+</head>
+<body>
+    <!-- Header ou entete -->
+    <header style="height: 60px; background-color: rgb(13, 71, 161);">
+        <nav>
+            <ul style="display: inline-flex;">
+                <li type="none" style="margin-inline: 10px;"><a style="color: white; text-decoration: none;" href="#About">Home</a></li>
+                <li type="none" style="margin-inline: 10px;"><a style="color: white; text-decoration: none;" href="#About">About</a></li>
+                <li type="none" style="margin-inline: 10px;"><a style="color: white; text-decoration: none;" href="#Work">Work</a></li>
+                <li type="none" style="margin-inline: 10px;"><a style="color: white; text-decoration: none;" href="#Resume">Resume</a></li>
+                <li type="none" style="margin-inline: 10px;"><a style="color: white; text-decoration: none;" href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin header -->
+
+    <!-- Contenu de la page -->
+    <main>
+        <!-- Section About -->
+        <section id="About">
+            <h1 style="color: rgb(13, 71, 161);">About</h1>
+            <img src="img/profil-img.jpg" alt="Mon image de profil" width="300" height="300">
+            <div>
+                <h1>Je me nomme Kone Nonwa</h1>
+                <p>
+                    Je veux devenir un Développeur Full Stack JavaScript, Je vis à Abidjan. 
+                    J'ai obtenir un BTS en Informatique Développeur d'Application en 2021. <br>
+                    Je suis passionné du Développement des applications Web et Mobile
+                </p>
+                <Audio controls>
+                    <source src="./audio.mp3">
+                </Audio>
+            </div>
+        </section>
+
+        <!-- Section Work -->
+        <section id="Work">
+            <h1 style="color: rgb(13, 71, 161);">Work</h1>
+            <a href="https://1drv.ms/p/s!Au-3TcA9gQuah2I64R3fiEH5yKOs">
+                <figure>
+                    <img src="./img/work-1.jpg" alt="" width="200" height="200">
+                    <figcaption>
+                        <h6>Fondamentaux du web</h6>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <a href="https://github.com/Nonwa-Kone/learn_git.git">
+                <figure>
+                    <img src="./img/work-2.jpg" alt="" width="200" height="200">
+                    <figcaption>
+                        <h6>Checkpoint Git & Github</h6>
+                    </figcaption>
+                </figure>
+            </a>
+        </section>
+
+        <!-- Section Resume -->
+        <section id="Resume">
+            <h1 style="color: rgb(13, 71, 161);">Resume</h1>
+            <div>
+                <h3>Développeur Web Junior à Mozar Group</h3>
+                <small>Janvier 2023 à Ajourd'hui</small><br>
+                <b>Missions</b>
+                <ul>
+                    <li>Gestion de projet de bout en bout, de la conception à la mise en production.</li>
+                    <li>Conception et réalisation des sites web pour les clients de l'entreprise.</li>
+                    <li>Maintenu une veille technologieque constante.</li>
+                </ul>
+            </div> <br>
+
+            <div>
+                <h3>Stagiare Développeur Web Junior à AIG SARL U</h3>
+                <small>Octobre 2021 jusqu'en Avril 2023</small><br>
+                <b>Missions</b>
+                <ul>
+                    <li>Je partcipais au développement Front End des site Web</li>
+                </ul>
+            </div>
+        </section>
+        <!-- Fin section Resume -->
+
+        <!-- Section contact -->
+        <section id="Contact" style="background-color: rgb(227, 242, 253);">
+            <h1>Contact</h1>
+            <form action="#">
+                <label for="firstname">Firstname</label><br>
+                <input type="text" id="firstname" name="firstname" autocomplete="off" required> <br>
+
+                <label for="lastname">Lastname</label><br>
+                <input type="text" id="lastname" name="lastname" autocomplete="off" required> <br>
+                
+                <label for="contact">Contact</label><br>
+                <input type="number" id="contact" name="contact" autocomplete="off" required><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" autocomplete="off" required><br>
+
+                <label for="firstname">Firstname</label><br>
+                <input type="text" id="firstname" name="firstname" autocomplete="off" required><br>
+
+                <label for="comment">Commentaire</label><br>
+                <textarea id="comment" name="comment" cols="30" rows="10"></textarea><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <!-- Fin section Contact -->
+    </main>
+    <!-- Fin du contenu de la page -->
+
+    <!-- Pied du site web -->
+    <footer style="background-color: black; height: 40px;">
+        <p style="color: rgb(13, 71, 161); text-align: center;">Copyrigt 2023 By Kone Nonwa</p>
+    </footer>
+    <!-- Fin du pied -->
+</body>
+</html>
